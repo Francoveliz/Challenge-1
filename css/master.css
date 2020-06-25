@@ -12,7 +12,8 @@ body, html {
   justify-content: center;
   background-image: url("/img/bg-desktop.png");
   background-repeat: no-repeat;
-  background-position: 0px 230px;
+  background-position:bottom;
+  background-size:contain;
 }
 
 .left {
@@ -133,6 +134,8 @@ body, html {
   .main {
     background-image: url("/img/bg-mobile.png");
     background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
   }
 
   .triangulo {
